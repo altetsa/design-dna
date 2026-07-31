@@ -1,19 +1,20 @@
 ---
-title: "Мастер-руководство по экосистеме Vibe Design & Webflow Agent Skills"
-tags: [vibe-design, webflow, shadcn, stitch, gsap, mcp, skills, catalog, guide]
+title: "Мастер-руководство по экосистеме Vibe Design, Webflow & Tailwind CSS Skills"
+tags: [vibe-design, webflow, tailwind, shadcn, stitch, gsap, mcp, skills, catalog, guide]
 date: 2026-07-31
 status: ✅ Активен
-category: "Vibe Design / Webflow"
+category: "Vibe Design / Master"
 ---
 
-# 🚀 Vibe Design & Webflow — Единое Мастер-Руководство
+# 🚀 Vibe Design, Webflow & Tailwind CSS — Единое Мастер-Руководство
 
-Данный документ представляет собой **объединенное супер-руководство**, содержащее общую архитектуру и навигацию экосистемы **Vibe Design**, а также исчерпывающий реестр **28 Webflow Agent Skills**, MCP-серверов, компонентов Shadcn/ui, GSAP-анимаций и нейро-инструментов Google Labs Stitch.
+Данный документ представляет собой **объединенное супер-руководство**, содержащее общую архитектуру и навигацию экосистемы **Vibe Design**, реестр **28 Webflow Agent Skills**, движок **Tailwind CSS v4 Skills**, MCP-серверы, компоненты Shadcn/ui, GSAP-анимации и нейро-инструменты Google Labs Stitch.
 
 ---
 
 ## 🧭 1. Глобальная Навигация по Экосистеме Vibe Design
 
+- 🎨 **[Раздел Tailwind CSS](file:///root/obsidian/Vibe Design/Skills/Tailwind/)**: [[Skills/Tailwind/Tailwind_Skills_Master_Index|Каталог Tailwind CSS v4 Скиллов (v4 Engine, Tokens, UI Components)]]
 - 🌐 **[Раздел Webflow](file:///root/obsidian/Vibe Design/Webflow/)**: Реестр 28 скиллов, CMS, DevLink и автоматизация.
 - 🎨 **[Раздел Shadcn/ui](file:///root/obsidian/Vibe Design/Skills/Shadcn/)**: [[Skills/Shadcn/Shadcn_Skills_Master_Index|Каталог 5 Shadcn Скиллов]] & Обзор Shadcn/ui
 - 💎 **[Раздел DESIGN.md (74 Бренда)](file:///root/obsidian/Vibe Design/Design_MD/)**: [[Design_MD/Design_MD_Systems_Index|Каталог 74 Дизайн-Систем (Linear, Stripe, Vercel, Apple, etc.)]]
@@ -26,7 +27,16 @@ category: "Vibe Design / Webflow"
 
 ---
 
-## 🌐 2. Webflow Agent Skills — Системный Реестр и Документация
+## 🎨 2. Tailwind CSS Agent Skills (v4 Engine & UI Design)
+
+### 📚 Скиллы Tailwind CSS:
+1. **`tailwind-v4`** — Движок Tailwind v4: CSS-first конфигурация `@theme`, `@import "tailwindcss";`, плагины `@tailwindcss/vite` и `@tailwindcss/postcss`, миграция с v3.
+2. **`tailwind-design-system`** — Архитектура токенов дизайна, кастомные палитры OKLCH/HSL, шрифтовые шкалы, Dark Mode (Class/Media).
+3. **`tailwind-components`** — Галерея верстки UI компонентов: Hero Glassmorphism, Адаптивные дашборды, Формы с плавающими метками, микро-интерактивность.
+
+---
+
+## 🌐 3. Webflow Agent Skills — Системный Реестр и Документация
 
 **Конфигурация и расположение в системе:**
 - **Исполняемые файлы скиллов (CLI):** `/root/.agent/skills/`
@@ -69,7 +79,7 @@ category: "Vibe Design / Webflow"
 
 ---
 
-## 🛠️ 3. Описание Функциональных Категорий Webflow
+## 🛠️ 4. Описание Функциональных Категорий Webflow
 
 ### 📝 CMS & Контент:
 - **`bulk-cms-update`** — Массовое создание/обновление элементов CMS с валидацией и предпросмотром изменений.
@@ -98,7 +108,7 @@ category: "Vibe Design / Webflow"
 
 ---
 
-## 🎨 4. Разработка UI-компонентов Shadcn/ui (5 Скиллов + MCP)
+## 🎨 5. Разработка UI-компонентов Shadcn/ui (5 Скиллов + MCP)
 
 ### 🔍 Поиск и Открытие компонентов:
 - **`shadcn-component-discovery`** — Поиск компонентов и блоков по всем сторонним реестрам (Magic UI, Aceternity, Animate UI, Tailark, UI Elements) до написания кода с нуля.
@@ -113,7 +123,7 @@ category: "Vibe Design / Webflow"
 
 ---
 
-## 🎨 5. Google Labs Stitch Skills (15 Скиллов)
+## 🎨 6. Google Labs Stitch Skills (15 Скиллов)
 
 ### 🎨 Design & Generation:
 - **`stitch-generate-design`** — Генерация экранов и макетов по промптам и изображениям.
@@ -138,20 +148,20 @@ category: "Vibe Design / Webflow"
 
 ---
 
-## 💡 6. Пример Сквозного Сценария (Figma ➔ Webflow ➔ React/shadcn ➔ Stitch)
+## 💡 7. Пример Сквозного Сценария (Figma ➔ Webflow ➔ Tailwind v4 / shadcn ➔ Stitch)
 
 1. **Импорт макета**: Перенос макета из Figma в Webflow через `figma-to-webflow`.
 2. **Стилизация и CMS**: Применение нейминга `client-first-naming` / `flowkit-naming` и наполнение коллекций через `bulk-cms-update`.
-3. **Аудит**: Запуск `accessibility-audit` и `link-checker`.
-4. **Конвертация в React**: Экспорт компонентов через `devlink-command` или `code-component-command`.
+3. **Верстка на Tailwind CSS**: Экспорт в React + Tailwind CSS v4 с нативным `@theme` конфигом.
+4. **Аудит**: Запуск `accessibility-audit` и `link-checker`.
 5. **Stitch & Shadcn UI**: Генерация и доработка компонентов через `stitch-react-components` и `shadcn-component-review`!
 
 ---
 
-## ⚡ 7. Как вызывать Webflow & Vibe Design Skills через ИИ
+## ⚡ 8. Как вызывать Tailwind & Vibe Design Skills через ИИ
 
 Каждый скилл автоматически задействуется при описании соответствующей задачи в диалоге:
+- **Верстка на Tailwind v4**: *"Сверстай адативный дашборд на Tailwind CSS v4 с использованием @theme и Glassmorphism эффектов"*
 - **Аудит доступности**: *"Запусти accessibility audit для моего сайта Webflow"*
 - **Массовое обновление CMS**: *"Обнови 10 постов в коллекции Блог"*
 - **Файлы и верстка Figma**: *"Перенеси макет из Figma в Webflow"*
-- **Деплой и публикация**: *"Проверь пре-деплой чек-лист и опубликуй сайт через safe-publish"*
