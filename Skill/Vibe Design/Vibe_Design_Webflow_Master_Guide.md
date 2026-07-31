@@ -1,23 +1,23 @@
 ---
-title: "Мастер-руководство по экосистеме Vibe Design, Webflow, Tailwind CSS, Awesome Design & CosmicMind Material"
+title: "Мастер-руководство по экосистеме Vibe Design: Webflow, Tailwind v4, Awesome Design, CosmicMind Material, Shadcn/ui & Stitch"
 tags: [vibe-design, webflow, tailwind, awesome-design, cosmicmind-material, swift, ios, shadcn, stitch, gsap, mcp, skills, catalog, guide]
 date: 2026-07-31
 status: ✅ Активен
 category: "Vibe Design / Master"
 ---
 
-# 🚀 Vibe Design, Webflow, Tailwind CSS, Awesome Design & CosmicMind Material — Единое Мастер-Руководство
+# 🚀 Vibe Design & Master Agent Skills Suite — Единое Руководство Экосистемы
 
-Данный документ представляет собой **объединенное супер-руководство**, содержащее общую архитектуру и навигацию экосистемы **Vibe Design**, реестр **28 Webflow Agent Skills**, движок **Tailwind CSS v4 Skills**, базу ресурсов **Awesome Design Intelligence**, мобильный iOS UI-фреймворк **CosmicMind Material (Swift)**, MCP-серверы, компоненты Shadcn/ui, GSAP-анимации и нейро-инструменты Google Labs Stitch.
+Данный документ представляет собой **главный мастер-справочник**, содержащий архитектуру, навигацию и реестр всех интегрированных **Agent Skills**, MCP-серверов и паттернов верстки в экосистеме **Vibe Design**.
 
 ---
 
-## 🧭 1. Глобальная Навигация по Экосистеме Vibe Design
+## 🧭 1. Глобальная Навигация по Разделам Vibe Design
 
 - 📱 **[Раздел CosmicMind Material (iOS/Swift)](file:///root/obsidian/Vibe Design/Skills/CosmicMind_Material/)**: [[Skills/CosmicMind_Material/CosmicMind_Material_Master_Index|Каталог CosmicMind Material (Cards, FABMenu, NavigationDrawer, Motion Animations)]]
-- 🌟 **[Раздел Awesome Design](file:///root/obsidian/Vibe Design/Skills/Awesome_Design/)**: [[Skills/Awesome_Design/Awesome_Design_Master_Index|Каталог Awesome Design (Стоки, Палитры, Мокапы, Иконки, Typography)]]
-- 🎨 **[Раздел Tailwind CSS](file:///root/obsidian/Vibe Design/Skills/Tailwind/)**: [[Skills/Tailwind/Tailwind_Skills_Master_Index|Каталог Tailwind CSS v4 Скиллов (v4 Engine, Tokens, UI Components)]]
-- 🌐 **[Раздел Webflow](file:///root/obsidian/Vibe Design/Webflow/)**: Реестр 28 скиллов, CMS, DevLink и автоматизация.
+- 🌟 **[Раздел Awesome Design Intelligence](file:///root/obsidian/Vibe Design/Skills/Awesome_Design/)**: [[Skills/Awesome_Design/Awesome_Design_Master_Index|Каталог Awesome Design (Стоки, Палитры, Мокапы, Иконки, Typography)]]
+- 🎨 **[Раздел Tailwind CSS v4 Suite](file:///root/obsidian/Vibe Design/Skills/Tailwind/)**: [[Skills/Tailwind/Tailwind_Skills_Master_Index|Каталог Tailwind CSS v4 Скиллов (v4 Engine, Standalone CLI, Tokens, UI Components)]]
+- 🌐 **[Раздел Webflow Agent Skills](file:///root/obsidian/Vibe Design/Webflow/)**: [[Webflow/Vibe_Design_Webflow_Master_Guide|Реестр 28 Webflow Скиллов, CMS, DevLink и автоматизация]]
 - 🎨 **[Раздел Shadcn/ui](file:///root/obsidian/Vibe Design/Skills/Shadcn/)**: [[Skills/Shadcn/Shadcn_Skills_Master_Index|Каталог 5 Shadcn Скиллов]] & Обзор Shadcn/ui
 - 💎 **[Раздел DESIGN.md (74 Бренда)](file:///root/obsidian/Vibe Design/Design_MD/)**: [[Design_MD/Design_MD_Systems_Index|Каталог 74 Дизайн-Систем (Linear, Stripe, Vercel, Apple, etc.)]]
 - 🚀 **[Раздел AI SaaS & LaunchKit](file:///root/obsidian/Vibe Design/AI_SaaS/)**: [[AI_SaaS/AI_SaaS_Master_Index|Архитектура LaunchKit, Auth, Billing и AI-Wiring]]
@@ -31,34 +31,48 @@ category: "Vibe Design / Master"
 
 ## 📱 2. CosmicMind Material Skill (iOS / Swift UI & Motion)
 
-Скилл **`cosmicmind-material`** отвечает за верстку и архитектуру интерфейсов мобильных приложений на Swift для iOS:
+Скилл **`cosmicmind-material`** (`/root/.agent/skills/cosmicmind-material/SKILL.md`) отвечает за разработку и архитектуру нативных интерфейсов мобильных приложений на **Swift для iOS**:
 - **UI Компоненты**: `ImageCard`, `PresenterCard`, `FABMenuController`, `NavigationDrawer`, `SearchBarController`, `TabsController`, `Snackbar`.
-- **Анимации и переходы**: Анимации Motion физических пружин и плавных смен экранов.
+- **Анимации и переходы Motion**: Анимации на основе физических пружин и смены экранов через `CosmicMind/Motion`.
+- **Документация Obsidian**: [[Skills/CosmicMind_Material/CosmicMind_Material_Master_Index|CosmicMind Material Master Index]]
 
 ---
 
 ## 🌟 3. Awesome Design Intelligence Skill
 
-Скилл **`awesome-design`** интегрирует международный реестр дизайнерских ассетов (gztchan/awesome-design):
-- **Цветовые палитры & Градиенты**: Coolors, BrandColors, Color Hunt, uiGradients, WebGradients, Nippon Colors, Colorable (WCAG).
-- **Стоковая фотография & Персоны**: Unsplash, Pexels, UI Faces (аватары), Life of Pix, Gratisography.
+Скилл **`awesome-design`** (`/root/.agent/skills/awesome-design/SKILL.md`) интегрирует международный реестр дизайнерских ресурсов (gztchan/awesome-design):
+- **Цветовые палитры & Градиенты**: Coolors, BrandColors (официальные гексагональные цвета брендов), Color Hunt, uiGradients, WebGradients, Nippon Colors, Colorable (WCAG 2.1).
+- **Стоковая фотография & Персоны**: Unsplash, Pexels, UI Faces (генератор профильных аватаров для юзер-персон), Life of Pix, Gratisography.
 - **Мокапы устройств**: Shots.so, Screely, Cleanmock.
-- **Иконки & Логотипы**: Lucide Icons, Simple Icons, Heroicons, Iconify.
+- **Иконки & Векторные логотипы**: Lucide Icons, Simple Icons (3,000+ брендовых логотипов), Heroicons, Iconify.
+- **Документация Obsidian**: [[Skills/Awesome_Design/Awesome_Design_Master_Index|Awesome Design Master Index]]
 
 ---
 
-## 🎨 4. Tailwind CSS Agent Skills (v4 Engine & UI Design)
+## 🎨 4. Tailwind CSS Agent Skills (v4 Engine, Standalone CLI & Layout)
 
-### 📚 Скиллы Tailwind CSS:
-1. **`tailwind-v4`** — Движок Tailwind v4: CSS-first конфигурация `@theme`, `@import "tailwindcss";`, `@tailwindcss/cli`, плагины `@tailwindcss/vite` и `@tailwindcss/postcss`.
-2. **`tailwind-design-system`** — Архитектура токенов дизайна, кастомные палитры OKLCH/HSL, шрифтовые шкалы, Dark Mode (Class/Media).
-3. **`tailwind-components`** — Галерея верстки UI компонентов: Hero Glassmorphism, Адаптивные дашборды, Формы с плавающими метками.
+Набор скиллов для профессиональной верстки на **Tailwind CSS v4**:
+
+1. **`tailwind-v4`** — Движок Tailwind v4:
+   - Декларативная CSS-first конфигурация `@theme` без `tailwind.config.js`.
+   - Поддержка автономного компилятора `@tailwindcss/cli` (`npx @tailwindcss/cli -i input.css -o output.css --watch`).
+   - Интеграция с плагинами `@tailwindcss/vite` и `@tailwindcss/postcss`.
+   - Контейнерные запросы `@container` и OKLCH палитры.
+2. **`tailwind-design-system`** — Токены дизайна:
+   - Иерархия токенов (Primitive ➔ Semantic).
+   - Двойные стратегии Dark Mode (Class strategy & Media query).
+   - Правила анти-generic верстки (Anti-AI-Slop).
+3. **`tailwind-components`** — Шаблоны и компоненты:
+   - Hero секции с эффектом матового стекла (Glassmorphism).
+   - Адаптивные сетки дашбордов.
+   - Формы с плавающими метками (Floating Labels).
+- **Документация Obsidian**: [[Skills/Tailwind/Tailwind_Skills_Master_Index|Tailwind Skills Master Index]]
 
 ---
 
-## 🌐 5. Webflow Agent Skills — Системный Реестр и Документация
+## 🌐 5. Webflow Agent Skills — Системный Реестр и Документация (28 Скиллов)
 
-**Конфигурация и расположение в системе:**
+**Расположение в системе:**
 - **Исполняемые файлы скиллов (CLI):** `/root/.agent/skills/`
 - **Документация и справочники Obsidian:** `/root/obsidian/Vibe Design/Webflow/Skills/`
 - **MCP Сервер:** `@webflow/mcp-server` в `/root/mcp_config.json`
@@ -96,3 +110,30 @@ category: "Vibe Design / Master"
 | 27 | **Webflow Cloud Command** | `webflow-cloud-command` | Deployment & CLI | [[Webflow/Skills/Deployment_and_CLI/Webflow_Cloud_Command\|Webflow Cloud Command]] |
 | 28 | **Webflow Compress CMS Image** | `webflow-compress-cms-image` | CMS Management | [[Webflow/Skills/CMS_Management/Webflow_Compress_Cms_Image\|Webflow Compress CMS Image]] |
 | 29 | **WFU MCP Getting Started** | `wfu-mcp-getting-started` | Designer & Integrations | [[Webflow/Skills/Designer_and_Integrations/Wfu_Mcp_Getting_Started\|WFU MCP Getting Started]] |
+
+---
+
+## 🎨 6. Разработка UI-компонентов Shadcn/ui (5 Скиллов + MCP)
+
+- **`shadcn-component-discovery`** — Поиск компонентов и блоков по всем сторонним реестрам (Magic UI, Aceternity, Animate UI, Tailark, UI Elements).
+- **`shadcn` (Core)** — Считывание `components.json` и установка элементов через `npx shadcn add`.
+- **`shadcn-component-review`** — Проверка готовых компонентов на отступы, темы, data-слоты и доступность.
+- **`shadcn-improve`** — Аудит кодовой базы UI и составление плана рефакторинга.
+- **`migrate-radix-to-base`** — Миграция с примитивов Radix UI на новые примитивы Base UI.
+
+---
+
+## 🎨 7. Google Labs Stitch Skills (15 Скиллов)
+
+- **Генерация и верстка**: `stitch-generate-design`, `stitch-code-to-design`, `stitch-react-components`, `stitch-react-vite-dashboard`, `stitch-shadcn-ui`, `stitch-react-native`, `stitch-remotion`.
+- **Токены и качество**: `stitch-taste-design`, `stitch-extract-design-md`, `stitch-manage-design-system`, `stitch-enhance-prompt`, `stitch-stitch-loop`.
+
+---
+
+## ⚡ 8. Как задействовать скиллы в ИИ-чате
+
+Каждый скилл автоматически активируется при формулировании соответствующей задачи:
+- **Мобильный интерфейс iOS**: *"Спроектируй карточки ImageCard и выдвижное меню в стиле Material Design для iOS на Swift"*
+- **Дизайнерские ресурсы**: *"Подобери цветовые палитры с BrandColors и аватарки юзеров из UI Faces"*
+- **Верстка на Tailwind v4**: *"Сверстай дашборд на Tailwind CSS v4 с использованием standalone CLI и @theme"*
+- **Аудит и публикация**: *"Запусти accessibility audit для сайта Webflow и опубликуй через safe-publish"*
