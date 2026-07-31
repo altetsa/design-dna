@@ -1,6 +1,6 @@
 ---
-title: "Мастер-руководство по Tailwind CSS v4 Engine"
-tags: [tailwind, css-first, vite, postcss, theme, migration]
+title: "Мастер-руководство по Tailwind CSS v4 Engine & @tailwindcss/cli"
+tags: [tailwind, css-first, cli, vite, postcss, theme, migration]
 date: 2026-07-31
 status: ✅ Активен
 category: "Vibe Design / Skills / Tailwind"
@@ -8,11 +8,27 @@ category: "Vibe Design / Skills / Tailwind"
 
 # 🚀 Tailwind CSS v4 Engine — Полный Справочник
 
-## 📌 Архитектура CSS-First в v4
+## 📌 Способы Сборки в Tailwind v4
 
-Tailwind CSS v4 отказывается от конфигурационного файла `tailwind.config.js` в пользу декларативной настройки через директиву `@theme` прямо в CSS.
+### 1. Автономный CLI (`@tailwindcss/cli`)
+Идеально для чистых HTML/JS проектов, скриптов сборки и быстрого компилирования CSS без Vite или PostCSS:
 
-### 1. Подключение в Vite
+```bash
+npm install tailwindcss @tailwindcss/cli
+```
+
+**Команда компиляции:**
+```bash
+# Режим слежения (Dev Watch)
+npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch
+
+# Продакшн сборка с минификацией
+npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --minify
+```
+
+---
+
+### 2. Подключение в Vite (`@tailwindcss/vite`)
 ```bash
 npm install tailwindcss @tailwindcss/vite
 ```
@@ -27,7 +43,9 @@ export default defineConfig({
 })
 ```
 
-### 2. Главный CSS файл (`src/index.css`)
+---
+
+### 3. Главный CSS файл (`src/input.css` или `src/index.css`)
 ```css
 @import "tailwindcss";
 
@@ -42,11 +60,3 @@ export default defineConfig({
   --breakpoint-3xl: 120rem;
 }
 ```
-
----
-
-## ⚡ Ключевые возможности
-
-1. **Zero-Config Сканирование шаблонов**: Больше не нужно указывать пути `content: [...]` — Tailwind сканирует файлы автоматически.
-2. **Переменные CSS по умолчанию**: Любой токен из `@theme` доступен и как утилита (`bg-primary`), и как переменная `var(--color-primary)`.
-3. **Контейнерные запросы (`@container`)**: Адаптивность элементов относительно ширины своего родителя.
